@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="taotao-manager-web" />
+        <module name="taotao-manager-mapper" />
+        <module name="taotao-common" />
+        <module name="taotao-manager-interface" />
+        <module name="taotao-manager-pojo" />
+        <module name="taotao-manager-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="taotao-common" target="1.8" />
+      <module name="taotao-manager" target="1.8" />
+      <module name="taotao-manager-interface" target="1.8" />
+      <module name="taotao-manager-mapper" target="1.8" />
+      <module name="taotao-manager-pojo" target="1.8" />
+      <module name="taotao-manager-service" target="1.8" />
+      <module name="taotao-manager-web" target="1.8" />
+      <module name="taotao-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="taotao-common" options="-parameters" />
+      <module name="taotao-manager-interface" options="-parameters" />
+      <module name="taotao-manager-mapper" options="-parameters" />
+      <module name="taotao-manager-pojo" options="-parameters" />
+      <module name="taotao-manager-service" options="-parameters" />
+      <module name="taotao-manager-web" options="-parameters" />
+    </option>
+  </component>
+</project>
