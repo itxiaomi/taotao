@@ -10,6 +10,7 @@
         <module name="taotao-manager-mapper" />
         <module name="taotao-common" />
         <module name="taotao-manager-interface" />
+        <module name="taotao-portal" />
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="taotao-manager-service" target="1.8" />
       <module name="taotao-manager-web" target="1.8" />
       <module name="taotao-parent" target="1.8" />
+      <module name="taotao-portal" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="taotao-manager-pojo" options="-parameters" />
       <module name="taotao-manager-service" options="-parameters" />
       <module name="taotao-manager-web" options="-parameters" />
+      <module name="taotao-portal" options="-parameters" />
     </option>
   </component>
 </project>
