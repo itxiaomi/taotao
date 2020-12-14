@@ -14,6 +14,9 @@
         <module>../taotao-manager</module>
         <module>../taotao-manager-web</module>
         <module>../taotao-portal</module>
+        <module>../itcast-solr</module>
+        <module>../taotao-search</module>
+        <module>../taotao-search-web</module>
     </modules>
 
     <parent>
@@ -106,6 +109,16 @@
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.2.12</version>
         </dependency>
+
+
+        <!--solr的依赖-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-solr -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-solr</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
+
 
     </dependencies>
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" filepath="$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/../taotao-common/taotao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" />
@@ -11,6 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/../taotao-manager-web/taotao-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/../taotao-parent/taotao-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-portal/taotao-portal.iml" filepath="$PROJECT_DIR$/../taotao-portal/taotao-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taotao-search/taotao-search.iml" filepath="$PROJECT_DIR$/../taotao-search/taotao-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taotao-search/taotao-search-interface/taotao-search-interface.iml" filepath="$PROJECT_DIR$/../taotao-search/taotao-search-interface/taotao-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taotao-search/taotao-search-service/taotao-search-service.iml" filepath="$PROJECT_DIR$/../taotao-search/taotao-search-service/taotao-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taotao-search-web/taotao-search-web.iml" filepath="$PROJECT_DIR$/../taotao-search-web/taotao-search-web.iml" />
     </modules>
   </component>
 </project>
