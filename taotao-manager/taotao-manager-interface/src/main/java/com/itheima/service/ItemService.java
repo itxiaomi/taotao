@@ -22,5 +22,12 @@ public interface ItemService {
 
 
     //List<Item> findAll();
+
+    /**
+     * 新增商品
+     * @param item 商品的信息
+     * @param desc 商品的描述
+     */
+    void addItem(Item item  , String desc);
 }
 

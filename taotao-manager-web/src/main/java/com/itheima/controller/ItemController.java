@@ -20,11 +20,23 @@ public class ItemController {
     @Reference
     private ItemService itemService;
 
+    //分页显示商品
     @RequestMapping("/rest/item")
     public TaoResult<Item> findByPage(int page , int rows){
 
         TaoResult<Item> result = itemService.findByPage(page, rows);
 
         return result;
+    }
+
+    //新增商品
+    @RequestMapping("/rest/addItem")
+    public String saveItem(Item item, String desc) {
+
+        //手动设置分类
+        //item.setCid(560L);
+
+        itemService.addItem(item, desc);
+        return "add success" ;
     }
 }

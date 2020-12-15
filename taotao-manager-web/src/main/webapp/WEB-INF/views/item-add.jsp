@@ -100,7 +100,7 @@
 	function submitForm(){
 		//校验表单
 		if(!$('#itemAddForm').form('validate')){
-			$.messager.alert('提示','表单还未填写完成!');
+			$.messager.alert('提示','表单还未填写完成!!!!!!!!!!!!!!');
 			return ;
 		}
 		$("#itemAddForm [name=price]").val(eval($("#itemAddForm [name=priceView]").val()) * 100);
@@ -109,7 +109,7 @@
 		//提交到后台的RESTful
 		$.ajax({
 		   type: "POST",
-		   url: "/rest/item",
+		   url: "/rest/addItem",
 		   data: $("#itemAddForm").serialize(),
 		   success: function(msg){
 			   $.messager.alert('提示','新增商品成功!');
@@ -136,7 +136,7 @@
    			    modal:true,
    			    closed:true,
    			    iconCls:'icon-save',
-   			    title:'选择类目',
+   			    title:'选择类目aaa',
    			    onOpen : function(){
    			    	var _win = this;
    			    	$("ul",_win).tree({

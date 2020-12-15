@@ -24,11 +24,7 @@
 <div class="w main">
 	<div class="crumb">全部结果&nbsp;&gt;&nbsp;<strong>"${query}"</strong></div>
 <div class="clr"></div>
-<div class="m clearfix" id="bottom_pager">
-<div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
-	
-</div>
-</div>
+
 <div class="m psearch " id="plist">
 <ul class="list-h clearfix" tpl="2">
 <c:forEach items="${itemList}" var="item">
@@ -53,7 +49,17 @@
 	</div>
 </li>
 </c:forEach>
-</ul></div>
+</ul>
+
+
+</div>
+
+	<div class="m clearfix" id="bottom_pager">
+		<div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
+
+		</div>
+	</div>
+
 </div>
 <!-- footer start -->
 <jsp:include page="../commons/footer.jsp" />
