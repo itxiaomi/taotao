@@ -11,15 +11,17 @@
         <module name="taotao-common" />
         <module name="taotao-manager-interface" />
         <module name="itcast-solr" />
-        <module name="taotao-search-service" />
         <module name="taotao-portal" />
+        <module name="taotao-manager-service" />
         <module name="taotao-manager-pojo" />
         <module name="taotao-search-interface" />
-        <module name="taotao-manager-service" />
+        <module name="itcast-activemq" />
+        <module name="taotao-search-service" />
         <module name="taotao-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itcast-activemq" target="1.8" />
       <module name="itcast-solr" target="1.8" />
       <module name="taotao-common" target="1.8" />
       <module name="taotao-manager" target="1.8" />
@@ -38,6 +40,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-activemq" options="-parameters" />
       <module name="itcast-solr" options="-parameters" />
       <module name="taotao-common" options="-parameters" />
       <module name="taotao-manager-interface" options="-parameters" />

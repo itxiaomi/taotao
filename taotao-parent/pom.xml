@@ -17,6 +17,7 @@
         <module>../itcast-solr</module>
         <module>../taotao-search</module>
         <module>../taotao-search-web</module>
+        <module>../itcast-activemq</module>
     </modules>
 
     <parent>
@@ -118,6 +119,16 @@
             <artifactId>spring-boot-starter-data-solr</artifactId>
             <version>2.2.5.RELEASE</version>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+            <version>2.3.6.RELEASE</version>
+        </dependency>
+
 
 
     </dependencies>

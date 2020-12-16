@@ -8,6 +8,7 @@ import com.itheima.mapper.ItemMapper;
 import com.itheima.service.ItemService;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsMessagingTemplate;
 
 import java.util.Date;
 
@@ -20,6 +21,9 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemMapper itemMapper;
+
+    @Autowired
+    private JmsMessagingTemplate jmsMessagingTemplate;
 
 
     @Override
@@ -55,5 +59,12 @@ public class ItemServiceImpl implements ItemService {
         itemDesc.setItemDesc(desc);
 
         this.itemDescService.save(itemDesc);*/
+
+
+        //发送消息，通知搜索系统去更新索引 只需要告诉搜索系统，商品的id即可
+        //发送消息的时候，能不能不传id 而是传递现在添加的这件商品。
+        jmsMessagingTemplate.convertAndSend("item",""+item.getId());
+
     }
+
 }

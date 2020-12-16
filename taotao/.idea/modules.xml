@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../itcast-activemq/itcast-activemq.iml" filepath="$PROJECT_DIR$/../itcast-activemq/itcast-activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" filepath="$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/../taotao-common/taotao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" />
